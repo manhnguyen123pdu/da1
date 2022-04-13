@@ -1,6 +1,7 @@
 .contain {
     width: 93%;
     margin: auto;
+
 }
 
 .header {
@@ -11,6 +12,7 @@
 
 .header_left {
     width: 20%;
+  
 }
 
 .header_left i {
@@ -32,13 +34,17 @@
     width: 20%;
     display: flex;
     justify-content: flex-end;
+ 
 }
 
 .header_right i {
     padding: 0 5px;
     line-height: 100px;
 }
-
+.header_layer2{
+    opacity: 0;
+    visibility: hidden;
+}
 .ic1 {
     opacity: 0;
     visibility: hidden;
@@ -68,17 +74,25 @@
         display: flex;
         justify-content: flex-start;
         align-items: center;
+        width: 60%;
     }
 
     .header_center img {
         height: 40px;
         display: flex;
     }
+    .header_right{
+        width: 40%;
 
+    }
     .header_layer2 {
-        position: absolute;
+        opacity: 1;
         top: 100px;
         width: 100%;
+    }
+    .active{
+        opacity: 1;
+        visibility: visible;
     }
 
     .header_layer2 input {
@@ -114,4 +128,14 @@
     .ct1 .ct1_left ul li,.ct1_right ul li{
         display: block;
          width: 200%;
-    }}
+    }
+    .ct1 span{
+        display: block;
+        width: 100px;
+        height: 30px;
+        background-color: rgb(225, 164, 112);
+        color: white;
+        text-align: center;
+        line-height: 30px;
+    }
+}
