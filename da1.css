@@ -53,7 +53,8 @@
 @media only screen and (max-width: 768px) {
     .header {
         position: relative;
-        font-family: 'Work Sans', sans-serif;
+        font-family: 'Montserrat Alternates', sans-serif;
+       
     }
 
     .ic1 {
@@ -89,6 +90,8 @@
         opacity: 1;
         top: 100px;
         width: 100%;
+        font-family: 'Montserrat Alternates', sans-serif;
+        font-weight: 600;
     }
     .active{
         opacity: 1;
@@ -128,6 +131,8 @@
     .ct1 .ct1_left ul li,.ct1_right ul li{
         display: block;
          width: 200%;
+         padding: 5px;
+   
     }
     .ct1 span{
         display: block;
@@ -138,4 +143,7 @@
         text-align: center;
         line-height: 30px;
     }
+}
+.right1 i{
+    padding: 8px;
 }
