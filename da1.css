@@ -42,6 +42,7 @@
     line-height: 100px;
 }
 .header_layer2{
+
     opacity: 0;
     visibility: hidden;
 }
@@ -86,16 +87,23 @@
         width: 40%;
 
     }
+    .header1 {
+        position: relative;
+    }
     .header_layer2 {
-        opacity: 1;
-        top: 100px;
         width: 100%;
         font-family: 'Montserrat Alternates', sans-serif;
         font-weight: 600;
+        position: absolute;
+        background-color: rgb(255, 255, 255)
+        ;
+
+
     }
     .active{
-        opacity: 1;
+    z-index: 10;
         visibility: visible;
+        opacity: 1;
     }
 
     .header_layer2 input {
